@@ -555,7 +555,7 @@ public class Duty implements Serializable {
                         } else if (night_count[j + v_table[0].length] == 2) {//나이트 두번했으면 한번더하거나 2off
                             if (option1 == true)
                                 day = true;
-                                evening = true;
+                            evening = true;
 
                             /*f (work_count[j + v_table[0].length] != 2)
                                 night = true;*/
