@@ -255,7 +255,7 @@ public class Duty implements Serializable {
                             night = true;
                             two_off[j] = true;
                         }
-                        if (off_count[j] >= 4)//off 연속 4번이상했을시 off금지
+                        if (off_count[j] >= 4)//off 연속 4번이상했을시 off 금지
                             off = true;
                         if (day_count[j] >= 3) {
                             day = true;
