@@ -173,7 +173,7 @@ public class DutyLayout extends AppCompatActivity {
         System.out.println(cal.getTime());
 
 
-            int[] one_day_count = new int[4];//하루 근무 저장 배열
+            int[] one_day_count = new int[4];//하루 근무 저장배열
             int[][] nurse_count = new int[duty.timetable[0].length][4];//간호사 한명 근무 저장배열
             int[] all_count=new int[4];
 
