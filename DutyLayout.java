@@ -134,7 +134,7 @@ public class DutyLayout extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        veteran = intent.getIntExtra("Veteran", 1);
+        veteran = intent.getIntExtra("Veteran", 1);/////
         beginner = intent.getIntExtra("Beginner", 1);
         daywork=intent.getIntExtra("Daywork",1);
 
