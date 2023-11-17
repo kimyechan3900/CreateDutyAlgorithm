@@ -43,7 +43,7 @@ public class DutyLayout extends AppCompatActivity {
     NotificationManager manager;
     NotificationCompat.Builder builder;
 
-    private static String CHANNEL_ID = "channel2";
+    private static String CHANNEL_ID = "channel2";//
     private static String CHANEL_NAME = "Channel2";
 
 
